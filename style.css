@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(240, 41%, 8%);
+    overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 4em;
+    color: hsl(0, 0%, 86%);
+}
+
+.container p{
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+    color: hsl(0, 0%, 86%);
+}
+
+.pads {
+    width: 100%;
+    display: flex;
+}
+
+.pads > div {
+    height: 400px;
+    width: 100px;
+    flex: 1;
+    transition: all 300ms ease-out;
+    text-align: center;
+    border: 20px solid transparent;
+}
+
+h3 {
+    padding-top: 35%;
+    color: hsl(240, 41%, 8%);
+    transition: all 200ms ease-out;
+}
+
+.pad:nth-child(1){
+    background: hsl(68, 56%, 52%);
+}
+.pad:nth-child(2){
+    background: hsl(115, 38%, 55%);
+}
+.pad:nth-child(3){
+    background: hsl(164, 85%, 34%);
+}
+.pad:nth-child(4){
+    background: hsl(179, 100%, 25%);
+}
+.pad:nth-child(5){
+    background: hsl(189, 86%, 25%);
+}
+.pad:nth-child(6){
+    background: hsl(203, 30%, 26%);
+}

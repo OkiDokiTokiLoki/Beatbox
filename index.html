@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    
+    <title>BeatsByToki</title>
+</head>
+<body>
+
+    <section class="container">
+        
+        <h1>Make some noise!</h1>
+        <p>Use numbers 1 - 6 to make some noise<br>
+        try using three numbers per hand</p>
+
+        <div class="pads">
+            <!--  Divs are added to individual pads because <audio> cannot be styled-->
+            <div class="pad">
+                <audio class="sound" src="./sounds/pop.mp3"></audio>
+                <h3 >pop</h3>
+            </div>
+            <div class="pad">
+                <audio class="sound" src="./sounds/horn.mp3"></audio>
+                <h3>horn</h3>
+            </div>
+            <div class="pad">
+                <audio class="sound" src="./sounds/clap.mp3"></audio>
+                <h3>clap</h3>
+            </div>
+            <div class="pad">
+                <audio class="sound" src="./sounds/crash.mp3"></audio>
+                <h3>crash</h3>
+            </div>
+            <div class="pad">
+                <audio class="sound" src="./sounds/kick.mp3"></audio>
+                <h3>kick</h3>
+            </div>
+            <div class="pad">
+                <audio class="sound" src="./sounds/chime.mp3"></audio>
+                <h3>chime</h3>
+            </div>
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
