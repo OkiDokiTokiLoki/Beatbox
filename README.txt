@@ -3,7 +3,7 @@
 
 
 
-----> [Live demo](https://okidokitokiloki.github.io/beatbox/)
+----> [Live demo](https://okidokitokiloki.github.io/Beatbox/)
 
 
 
