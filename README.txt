@@ -2,7 +2,6 @@
 /// Outcome: Simple sounds being produced over keypressed elements (Sounds play when you push buttons)
 
 
-
 ----> [Live demo](https://okidokitokiloki.github.io/Beatbox/)
 
 
