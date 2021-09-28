@@ -1,6 +1,6 @@
 <h3>BeatsByToki</h3>
 
-[Live demo](https://okidokitokiloki.github.io/Beatbox/)
+[Live demo](https://okidokitokiloki.github.io/beatbox/)
 
 ## General info
 This is a simple application used to make a little noise. Nothing complicated,just having some fun with basic front end work, <em>all vanilla</em>
