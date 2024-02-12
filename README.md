@@ -3,13 +3,10 @@
 👉 [Live demo](https://okidokitokiloki.github.io/beatbox/)
 
 ## General info
-This is a simple application used to make a little noise. Nothing complicated, just having some fun with basic frontend technology
-<br>
-<br>
-<strong>Sounds play when you push buttons</strong>
+Make some noise with this silly little application. Nothing complicated, just having some fun with basic frontend technology.
 	
 ## Technologies
 Project is created with:
 * HTML
 * CSS
-* JavaScript
+* TypeScript
