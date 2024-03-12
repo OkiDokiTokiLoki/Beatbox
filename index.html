@@ -1,65 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" as="style" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./style.min.css" />
-    
-    <title>BeatsByToki</title>
-</head>
-<body>
-    <div class="overlay"></div>
-
-    <section class="container">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" as="style" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./style.min.css" />
         
-        <h1>Make some noise!</h1>
-        <p>Use numbers 1 - 6 to make some noise<br>
-        try using three numbers per hand</p>
+        <title>BeatsByToki</title>
+    </head>
+    <body>
+        <div class="overlay"></div>
 
-        <div class="pads">
-            <div class="pad">
-                <audio class="sound" src="./sounds/pop.mp3"></audio>
-                <h3 >pop</h3>
-            </div>
-            <div class="pad">
-                <audio class="sound" src="./sounds/horn.mp3"></audio>
-                <h3>horn</h3>
-            </div>
-            <div class="pad">
-                <audio class="sound" src="./sounds/clap.mp3"></audio>
-                <h3>clap</h3>
-            </div>
-            <div class="pad">
-                <audio class="sound" src="./sounds/crash.mp3"></audio>
-                <h3>crash</h3>
-            </div>
-            <div class="pad">
-                <audio class="sound" src="./sounds/kick.mp3"></audio>
-                <h3>kick</h3>
-            </div>
-            <div class="pad">
-                <audio class="sound" src="./sounds/chime.mp3"></audio>
-                <h3>chime</h3>
-            </div>
-        </div>
-    </section>
+        <section class="container">
+            
+            <h1>Make some noise!</h1>
+            <p>Use numbers 1 - 6 to make some noise<br>
+            try using three numbers per hand</p>
 
-    <footer>
-        <p>
-            &copy;
-            <span id="yearSpan">
-                <script>
-                    document.querySelector("#yearSpan").textContent = new Date().getFullYear();
-                </script>
-            </span>
-            <a href="https://github.com/OkiDokiTokiLoki/beatbox">OkiDokiTokiLoki</a>
-        </p>
-    </footer>
+            <div class="pads">
+                <div class="pad">
+                    <audio class="sound" src="./sounds/pop.mp3"></audio>
+                    <h3 >pop</h3>
+                </div>
+                <div class="pad">
+                    <audio class="sound" src="./sounds/horn.mp3"></audio>
+                    <h3>horn</h3>
+                </div>
+                <div class="pad">
+                    <audio class="sound" src="./sounds/clap.mp3"></audio>
+                    <h3>clap</h3>
+                </div>
+                <div class="pad">
+                    <audio class="sound" src="./sounds/crash.mp3"></audio>
+                    <h3>crash</h3>
+                </div>
+                <div class="pad">
+                    <audio class="sound" src="./sounds/kick.mp3"></audio>
+                    <h3>kick</h3>
+                </div>
+                <div class="pad">
+                    <audio class="sound" src="./sounds/chime.mp3"></audio>
+                    <h3>chime</h3>
+                </div>
+            </div>
+        </section>
 
-    <script src="./dist/app.js"></script>
+        <script src="./dist/app.js"></script>
 
-</body>
+    </body>
 </html>

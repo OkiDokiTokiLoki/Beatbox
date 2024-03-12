@@ -31,7 +31,7 @@ window.addEventListener('load', () => {
             pad.style.transform = "scale(1.05)";
             pad.style.borderRadius = "50%";
             title.style.fontSize = "2rem";
-            title.style.color = "hsl(0, 0%, 86%)";
+            title.style.color = "hsl(330, 88%, 55%)";
         }
         else {
             pad.style.transform = "scale(1)";
