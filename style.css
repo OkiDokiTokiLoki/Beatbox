@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Poppins', Verdana, sans-serif;
-    background-color: hsl(240, 41%, 8%);
+    /* background-color: hsl(240, 41%, 8%); */
+    background-color: hsl(202, 85%, 8%);
     overflow: hidden;
 }
 
